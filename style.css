@@ -1,0 +1,27 @@
+p {
+  text-decoration-line: underline;
+  color: purple;
+}
+header {
+  background-origin: padding-box;
+  margin: auto;
+  width: 850px;
+  height: 200px;
+  background-image: url();
+  background-color: #adff2f;
+  background-origin: border-box;
+}
+.list {
+  position: relative;
+  top: 125px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+}
